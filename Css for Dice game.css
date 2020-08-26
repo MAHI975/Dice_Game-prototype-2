@@ -1,0 +1,88 @@
+/*ALL ELEMENTS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./Back\ -\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-div {
+    display: flex;
+}
+/*-------------------*/
+/*PLAYER BOXES*/
+.player-1 {
+    width: 560px;
+    height: 650px;
+    transform: translate(35%, 10%);
+    background: #FFF;
+}
+.player-2 {
+    width: 560px;
+    height: 650px;
+    transform: translate(35%, 10%);
+    background: rgb(207, 202, 202);
+}
+/*----------------------*/
+/*Inside Player Boxes*/
+.name {
+    transform: translate(0, 50px);
+    text-align: center;
+    color: #000;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.new-game {
+    position: absolute;
+    transform: translate(-50%, 15px);
+    color: black;
+    font-size: 20px;
+}
+.global-score {
+    color: rgba(6, 152, 236, 0.938);
+    font-size: 100px;
+    text-align: center;
+    transform: translate(0, 100%);
+    font-family: "Segoe UI", sans-serif;
+}
+.current-score {
+    color: black;
+    font-weight: 500;
+    width: 130px;
+    height: 80px;
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    transform: translate(160%, 370%);
+    background: rgba(6, 152, 236, 0.938);
+
+}
+.current-score-number {
+    font-size: 25px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+}
+.roll-dice, .hold {
+    font-weight: 600;
+    font-size: 20px;
+}
+.roll-dice {
+    transform: translate(-10%, 800%);
+}
+.hold {
+    transform: translate(-10%, 900%);
+}
+.final-score {
+    font-size: 17px;
+    width: 150px;
+    transform: translate(-50%, 600%);
+    text-align: center;
+    background-color: #FFFDE4;
+    border: 2px solid black;
+}
